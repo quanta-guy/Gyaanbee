@@ -5,6 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 # DB URL (Using SQLite DB) : Opened db is saved in same locationas data.db
 
+
 SQLALCHEMY_DATABASE_URL = "postgresql://quanta:Svk@123@postgresserver/db" 
 
 engine = create_engine(
